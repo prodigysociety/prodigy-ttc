@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements | PRODIGY SOCIETY</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+    <div id="loader"><div class="spinner"></div></div>
+    <div id="cursor-glow"></div>
+    <canvas id="bg-canvas"></canvas>
+
+    <header class="glass-nav">
+        <a href="index.html" class="nav-brand">
+            <img src="assets/logo.png" alt="Prodigy Logo" class="nav-logo">
+            <span class="nav-title">PRODIGY SOCIETY</span>
+        </a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="members.html">Members</a>
+            <a href="events.html">Events</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="achievements.html" class="active">Achievements</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+    </header>
+
+    <main style="padding: 140px 8% 60px; max-width: 1200px; margin: 0 auto;">
+        <h1 style="font-family: var(--font-heading); font-size: 2.5rem; text-transform: uppercase; margin-bottom: 40px; text-align: center;">Milestones & Achievements</h1>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+            <div class="glass-card" style="padding: 25px;">
+                <h3 style="font-family: var(--font-heading); color: var(--primary);"><i class="fa-solid fa-trophy"></i> Best Student Club</h3>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 10px;">Recognized for organizational excellence and campus initiative leadership.</p>
+            </div>
+            <div class="glass-card" style="padding: 25px;">
+                <h3 style="font-family: var(--font-heading); color: var(--accent);"><i class="fa-solid fa-code"></i> Tech Hackathon Champions</h3>
+                <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: 10px;">Awarded top honors in regional student developer competitions.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom"><p>&copy; 2026 PRODIGY SOCIETY. All Rights Reserved.</p></div>
+    </footer>
+
+    <script src="js/loader.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/threeScene.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

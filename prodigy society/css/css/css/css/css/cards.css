@@ -1,0 +1,53 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card-member {
+    padding: 30px;
+    text-align: center;
+}
+
+.card-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px;
+    border: 2px solid var(--primary);
+}
+
+.card-member .role {
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-member h3 {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.card-event {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-event .date {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(225, 29, 72, 0.15);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    width: fit-content;
+}

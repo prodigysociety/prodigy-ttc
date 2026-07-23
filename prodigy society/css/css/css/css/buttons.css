@@ -1,0 +1,53 @@
+.btn-neon {
+    padding: 12px 30px;
+    background: var(--primary);
+    color: var(--bg-dark);
+    font-weight: 800;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 0 20px rgba(0, 216, 246, 0.4);
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-neon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 35px rgba(0, 216, 246, 0.7);
+}
+
+.btn-glass {
+    padding: 12px 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: var(--text-main);
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.btn-glass:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--primary);
+    transform: translateY(-3px);
+}
+
+.btn-3d {
+    padding: 12px 30px;
+    background: linear-gradient(135deg, var(--secondary), var(--accent));
+    color: var(--text-main);
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.btn-3d:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(225, 29, 72, 0.4);
+}
